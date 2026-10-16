@@ -153,6 +153,7 @@ case "$board" in
 		[ "$PHYNBR" = "2" ] && macaddr_setbit_la $addr2 > /sys${DEVPATH}/macaddress
 		;;
 	jcg,q30-pro|\
+	fzs,5gcpe-p5|\
 	netcore,n60|\
 	netcore,n60-pro)
 		# Originally, phy1 is phy0 mac with LA bit set. However, this would conflict
